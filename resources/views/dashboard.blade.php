@@ -10,6 +10,8 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900">
                     {{ __("Well come Slot Viewer") }}
+                    <p class="text-gray-500">You're logged in!</p>
+                    <p>ここにカレンダーが入ります</p>
                 </div>
             </div>
         </div>
