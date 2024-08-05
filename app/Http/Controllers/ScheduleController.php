@@ -8,6 +8,11 @@ use Symfony\Component\CssSelector\Node\FunctionNode;
 
 class ScheduleController extends Controller
 {
+    public function index()
+    {
+        return view('calendar');
+    }
+    
     public function getSchedule(Request $request)
     {
         $date = $request->input('date');
